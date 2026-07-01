@@ -1,0 +1,4 @@
+/* Basic custom styles; Tailwind is used for most styling */
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.event-card { transition: transform .12s ease, box-shadow .12s ease; }
+.event-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
